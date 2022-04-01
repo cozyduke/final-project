@@ -1,3 +1,4 @@
+
 #myDIV{
     float: left;
     width:100%;
@@ -14,7 +15,7 @@
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/Miguel B.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Final-Project/final-project/Images/Miguel B.jpg");
 
   /* Set a specific height */
   height: 50%;
@@ -27,7 +28,7 @@
 }
 .hero-image1 {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Kimya.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Final-Project/final-project/Images/Kimya.jpg");
 
   /* Set a specific height */
   height: 100%;
@@ -52,19 +53,19 @@
   margin-right: auto;
   
   }
+  iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+  }
   .sailer{
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
    
-  }
-iframe{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-
   }
   video{
     display: block;
