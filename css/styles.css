@@ -13,26 +13,17 @@
 }
 
 /* The hero image */
-#hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+.hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Miguel B.jpg");
-
-  /* Set a specific height */
   height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; top: 10%;
 }
-#hero-image1 {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+.hero-image1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Kimya.jpg");
-
-  /* Set a specific height */
   height: 100%;
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,9 +77,12 @@
   background-color:#050507;
   box-shadow: 10px 10px #b3968b;
   }
-  .navicon{ outline: #0f0f0f;
+  .navicon{
+      outline: #0f0f0f;
 }
-.map{margin: 15px;}
+.map{
+    margin: 15px;
+}
   a:link {
     color: #ff0000;
     text-decoration:none;
