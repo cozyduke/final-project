@@ -14,7 +14,7 @@
 
 /* The hero image */
 .hero-image {
-  object-fit: fill;
+  object-fit: cover;
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
