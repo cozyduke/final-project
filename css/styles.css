@@ -19,10 +19,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; top: 10%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Miguel B.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/Miguel B.jpg);
 }
 .hero-image1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Kimya.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/Kimya.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
